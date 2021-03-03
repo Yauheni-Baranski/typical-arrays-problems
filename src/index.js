@@ -10,7 +10,6 @@ exports.min = function min(array) {
         }
         return (minValue = b);
     });
-    return minValue;
 };
 
 exports.max = function max(array) {
@@ -25,7 +24,6 @@ exports.max = function max(array) {
         }
         return (maxValue = b);
     });
-    return maxValue;
 };
 
 exports.avg = function avg(array) {
